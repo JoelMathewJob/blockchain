@@ -24,26 +24,26 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href="/how-it-works"
+                  href="/tenant"
                   className={`hover:text-primary ${pathname === "/how-it-works" ? "text-primary" : "text-gray-600"}`}
                 >
-                  How It Works
+                  Tenant
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/dashboard"
+                  href="/mediator"
                   className={`hover:text-primary ${pathname === "/dashboard" ? "text-primary" : "text-gray-600"}`}
                 >
-                  Dashboard
+                  Mediator
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/support"
+                  href="/landlord"
                   className={`hover:text-primary ${pathname === "/support" ? "text-primary" : "text-gray-600"}`}
                 >
-                  Support
+                  Landlord
                 </Link>
               </li>
             </ul>
